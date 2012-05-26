@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Prayati Technology Solutions</title>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js"></script>
+    <style type="text/css">
+        body
+        {
+            /*font-family: "Lucida Grande" , "Lucida Sans Unicode" ,Helvetica,Arial,sans-serif;*/
+            font-size: 1.1em;
+            line-height: 1.2em;
+        }
+        #body
+        {
+            margin: auto;
+            max-width: 450px;
+            width: 98%;
+        }
+        a
+        {
+            color: #888888;
+            text-decoration: underline;
+        }
+        ul#nav
+        {
+            font-size: 1.2em;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        ul#nav li
+        {
+            display: inline;
+            margin: 1%;
+        }
+        #content div
+        {
+            /*display: none;*/
+        }
+        #content
+        {
+            margin-top: 2%;
+        }
+        #hidden
+        {
+            display:none;
+            }
+        blockquote{ font-size:1.2em;}
+    </style>
+    <script type="text/javascript">
+        function OnStart() {
+            $('#nav a').click(function () {
+                $('#content .active').fadeOut('slow').removeClass('active');
+                $($(this).attr('href')).fadeIn('slow').addClass('active');
+            });
+
+            if (document.location.hash != '') {
+                $(document.location.hash).fadeIn('slow').addClass('active');
+            } else { $('#nav a:first').click(); }
+
+        }
+        $(document).ready(OnStart);
+    </script>
+    
+</head>
+<body>
+    <div id="body">
+    
+        <div id="header">
+            <h1>
+                Prayati
+            </h1>
+            <ul id='nav'>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#joinus">Join us</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <div id="home">
+                <h2>
+                    About Prayati</h2>
+                <p>
+                    We are Prayati, A technology company with extensive expertise in developing technology
+                    products for businesses.</p>
+                <h3>
+                    Our philosophy</h3>
+                <blockquote>
+                    &quot;Create more value than you capture&quot;
+                </blockquote>
+                <p>
+                    Simple, This philosophy guides us in everything we do to our clients, employees and everyone
+                    we deal with. We strive to create more value for our clients than we capture.
+                </p>
+            </div>
+            <div id="services">
+                <h2>
+                    Services</h2>
+                <p>
+                    We at prayati understand what it takes to build a bussiness, We provide efficient
+                    cost effective technology solutions that suit your specific needs.
+                </p>
+                <h3>
+                    web site development</h3>
+                <p>
+                    If you're a bussiness looking to build online presence, we can discuss and provide
+                    you clear and cost effective solution for your specific requirements.</p>
+                <h3>
+                    Web product development</h3>
+                <p>
+                    We are product experts and have vast experience in developing web based products.
+                    we can develiver the products on time</p>
+                <h3>
+                    Technologies
+                </h3>
+                <p>
+                    We are experts at Open/closed Source technologies and frameworks, mainly NET/C#,
+                    ASP.NET MVC, HTML5/CSS3, Javascript, Ajax, jQuery.
+                </p>
+            </div>
+            <div id="joinus">
+                <h2>
+                    Join us</h2>
+                <p>
+                    We're always looking for passionate individuals to join us. Please get in touch
+                    with us at careers (at) prayati.com
+                </p>
+            </div>
+            <div id="contact">
+                <h2>
+                    Contact</h2>
+                <p>
+                    You can talk to us at +91-40-4007-4283 or email us at admin (at) prayati.com
+                </p>
+            </div>
+        </div>
+        <div id="hidden">
+        'museo-sans-rounded'
+
+Services
+ 
+web site development
+If you're a bussiness looking to build online presence, we can discuss and provide you clear and cost effective solution for your specific requirements.
+
+
+Web product development
+We are product experts and have vast experience in developing web based products. we can develiver the products on time
+
+Technologies
+We are experts at Open/closed Source technologies and frameworks, mainly NET/C#, ASP.NET MVC, HTML5/CSS3, Javascript, Ajax, jQuery, 
+
+About us
+We are Prayati, A technology company with extensive expertise in developing technology products for businesses.
+
+
+Join us
+We always 
+
+Home
+Prayati Technology Solutions is founded on a simple philosophy 
+Create more value than you capture.
+This philosophy guides everything we do. We strive to create more value than we capture for all stake holders, our clients than we capture. 
+
+
+Prayati Technology Solutions is founded with a mission to contribute to the growth of our clients by providing innovative and high value add services. We do our best to understand the big 
+
+picture of your business and how the solutions we provide make sense to your business and we truly believe that this process enables us to create win - win situations and contribute to the 
+
+growth of either of us. We consider any project we do as a success only if we grow together in the process.
+
+
+Our philosophy : 
+Create more value than you capture. Simple, This philosophy guides everything we do. We strive to create more value for our clients than we capture. 
+
+
+Home
+Prayati Technology Solutions is founded on a simple philosophy 
+Create more value than you capture.
+This philosophy guides everything we do. We strive to create more value than we capture for all stake holders, our clients than we capture. 
+
+Services
+   Software services
+      Application development
+      Maintenence & Re-engineering
+      Website development
+   Staffing Services
+      
+About us
+   Company
+      We are Prayati, A technology company with extensive expertise in developing technology products for businesses of all sizes.
+   Philosophy
+      Create more value than we capture.
+   People
+      Srinath
+      Kiran Vedantam
+      Prabhakar 
+      Lokesh
+
+Contact us
+        </div>
+    </div>
+</body>
+</html>
