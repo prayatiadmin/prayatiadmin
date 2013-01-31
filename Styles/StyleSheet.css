@@ -1,0 +1,142 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body
+{
+    background: #f4f4f4;
+    font-size: .80em;
+    font-family: "Helvetica Neue" , "Lucida Grande" , "Segoe UI" , Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+.page
+{
+    width: 980px;
+    margin: 0px auto 0px auto;
+}
+
+.main
+{
+    padding: 0px 12px;
+    min-height: 420px;
+    padding-bottom: 20px;
+    border-bottom: solid 4px #000;
+}
+.logo
+{
+    width: 198px;
+    float: left;
+    height: 56px;
+    margin: 10px;
+}
+
+.toppart
+{
+    width: 980px;
+    height: 80px;
+    float: left;
+    border-bottom: 4px solid #000;
+}
+.banner
+{
+    width: 980px;
+    height: 217px;
+    float: left;
+    background-color: Black;
+    margin: 2px 0px 10px 0px;
+}
+
+/* TAB MENU   
+----------------------------------------------------------*/
+/* For Menu */
+#coolMenu, #coolMenu ul
+{
+    list-style: none;
+    margin-top: 55px;
+    margin-left: 155px;
+}
+#coolMenu
+{
+    float: left;
+}
+#coolMenu li
+{
+    background-color: #DCDCDC;
+    margin-left: 2px;
+}
+#coolMenu > li
+{
+    float: left;
+}
+#coolMenu li a
+{
+    display: block;
+    height: 2em;
+    line-height: 2em;
+    padding: 0 1.5em;
+    text-decoration: none;
+    width: 75px;
+    text-align: center;
+    color: Black;
+}
+/* Main menu
+------------------------------------------*/
+#coolMenu
+{
+    font-family: Arial;
+    font-size: 12px; /*background: #2f8be8;*/
+}
+#coolMenu > li > a
+{
+    color: Black;
+    font-weight: bold;
+}
+
+#coolMenu > li:hover > a
+{
+    background: #FD6900;
+    color: #ffffff;
+}
+
+
+/* Home page bottom images */
+
+#mainimage
+{
+    width: 980px;
+    height: 220px;
+}
+
+#mainimage .leftimage
+{
+    width: 20%;
+    float: left;
+}
+#mainimage .middleimage
+{
+    width: 20%;
+    float: left;
+}
+#mainimage .rightimage
+{
+    width: 20%;
+    float: left;
+}
+
+#mainimage .right
+{
+    width: 20%;
+    float: left;
+}
+/*SAtish*/
+.main div b
+{
+    color: #0066FF;
+}
+.main p b
+{
+    color: #FF4719;
+}
